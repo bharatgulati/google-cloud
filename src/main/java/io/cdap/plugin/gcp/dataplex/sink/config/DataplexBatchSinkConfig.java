@@ -915,7 +915,7 @@ public class DataplexBatchSinkConfig extends DataplexBaseConfig {
   }
 
   /**
-   * Validates the schema based on validating output format.
+   * Validates the schema based on output format.
    *
    * @param context                FormatContext
    * @param format

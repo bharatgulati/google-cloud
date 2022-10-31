@@ -93,8 +93,9 @@ public class DataplexInputFormatProvider implements InputFormatProvider {
 
     /**
      * set delegate format to CombineAvroInputFormat as Dataplex job will write into avro format.
+     * @param inputFormat
      */
-    public DataplexInputFormat() {
+    public DataplexInputFormat(InputFormat inputFormat) {
       delegateFormat = new CombineAvroInputFormat();
     }
 
